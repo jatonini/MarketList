@@ -1,0 +1,117 @@
+* {
+    background-color: #F4F5Fb;
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+img {
+    padding-top: 3rem;
+}
+
+input {
+    border-radius: 10px;
+    border-color: #D1D5DB;
+    width: 35rem;
+    height: 3.5rem;
+    color: #9CA3AF;
+    padding: 0 1rem;
+    font-size: large;
+}   
+
+.teste {
+    border-radius: 10px;
+    border-color: #D1D5DB;
+    color: white;
+    background-color: #CA3884;
+    width: 10rem;
+    height: 3.5rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.tittle {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    width: 50rem; 
+}
+
+.tittle h1 {
+    margin-bottom: 1rem;
+}
+
+.tittle a {
+    text-decoration: none;
+    color: #CA3884;
+    font-weight: 700;
+}
+
+.add {
+    display: flex;
+    align-items: center;
+    width: 50rem;
+    gap: 2.5rem;
+} 
+
+.product-banner {
+    display: flex;
+    background-color: #FFFFFF;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    width: 47.5rem;
+    height: 4rem;
+    margin-right: 2.2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-checkbox {
+    margin-right: 1rem;
+    width: 1rem;
+}
+
+.product-name {
+    flex-grow: 1;
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+    background-color: #FFFFFF;
+}
+
+.delete-btn {
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    background-image: url('img/delete-01-stroke-rounded.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    transition: transform 0.3s ease;
+}
+
+.produtos {
+    display: none; /* Começa invisível */
+}
+
