@@ -87,7 +87,7 @@ function addDeleteButtonListener(banner) {
 }
 
 // Evento de clique na lixeira para remover todos os itens selecionados
-/*document.addEventListener("click", function(e) {
+document.addEventListener("click", function(e) {
     if (e.target && e.target.classList.contains("delete-btn")) {
         // Seleciona o container onde os produtos estão
         const productContainer = document.getElementsByClassName("produtos")[0]
@@ -106,6 +106,6 @@ function addDeleteButtonListener(banner) {
             productContainer.style.display = "none"
         }
     }
-}) */
+}) 
 
 
